@@ -44,7 +44,7 @@ function checkStatus(){
 
 //단어 불러오기
 function getWords(){
-    axios.get('https://random-word-api.herokuapp.com/word?number=10')
+    axios.get('https://random-word-api.herokuapp.com/word?number=5')
   .then(function (response) {
     
     response.data.forEach((word)=>{
